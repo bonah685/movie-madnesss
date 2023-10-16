@@ -1,0 +1,228 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    box-sizing: border-box;
+    
+}
+
+/* Talk about floats, use text to demonstrate
+    • float left, right, clear */
+
+/* Talk about position properties */
+/* Position properties
+    • Position relative
+    • Position absolute with top, with top and left set to 0 
+    • Position fixed with top and left set to 0 */
+    
+h1{
+        background-color: transparent;
+        font-size: 48px;
+    }
+
+    
+    
+.container{
+    background-image: url(background.jpeg);
+    background-repeat: none;
+    padding: 10px;
+    height: 100vh;
+   
+}
+
+
+.box1{
+    
+    height: 950px;
+    width: 1300px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    background-color: rgb(88, 87, 87);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px 5px #96e713;
+    border: 5px solid #ffff1f; /* Dark Violet */ 
+}
+
+/* Show position absolute here with top and left set to 0: */
+
+
+/* Show position fixed here: */
+
+.box3{
+    height: 600px;
+    width: 975px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-radius: 30px;
+}
+
+
+.box4{
+    height: 580px;
+    width: 850px;
+    position: absolute;
+    bottom: 31%;
+    left: 26%;
+    border-radius: 30px;
+    justify-content: center;
+    color: azure;
+    font-size: 60px;
+    font-family: monospace;
+    z-index: 4;
+    text-align: center;
+
+    
+}
+video{
+    width: 100%;
+    height: max-content;
+    margin-top: 50px;
+    border-radius: 10px; /* Rounded corners for the video */
+    align-items: center;
+    position:absolute;
+    right: 0%;
+     box-shadow: 0px 0px 30px 5px #f4f5f2;
+  }
+.box4 p {
+    background-color: transparent;
+    color: azure;
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+    
+.circle {
+    width: 100px; 
+    height: 100px;
+    background-color: #313131; /* Example background color for the circle */
+    border-radius: 50%; /* This creates a circle shape by using a 50% border-radius */
+    position: absolute;
+    top: 85%;
+    left: 16%;
+    z-index: 5;
+}
+.oval {
+    width: 210px; /* Adjust the width as needed */
+    height: 65px; /* Adjust the height as needed */
+    background-color: #b9b9b9; /* Adjust the background color as needed */
+    border-radius: 50%;
+    left: 70%;
+    z-index: 12;
+    bottom: 5%;
+    position: absolute;
+    
+        }
+.little {
+    width: 30px; 
+    height: 30px;
+    background-color: #313131; /* Example background color for the circle */
+    border-radius: 50%; /* This creates a circle shape by using a 50% border-radius */
+    position: absolute;
+    z-index: 13;
+    bottom: 7%;
+    right: 26%;
+}
+.little2 {
+    width: 30px; 
+    height: 30px;
+    background-color: #313131; /* Example background color for the circle */
+    border-radius: 50%; /* This creates a circle shape by using a 50% border-radius */
+    position: absolute;
+    z-index: 14;
+    bottom: 7%;
+    right: 23%;
+}
+.little3 {
+    width: 30px; 
+    height: 30px;
+    background-color: #313131; /* Example background color for the circle */
+    border-radius: 50%; /* This creates a circle shape by using a 50% border-radius */
+    position: absolute;
+    z-index: 15;
+    bottom: 7%;
+    right: 20%;
+}
+   
+   
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #030303;
+    text-decoration: none;
+    border: black 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    position: absolute;
+    left: 36%;
+    bottom: 17%;
+    z-index: 6;
+    letter-spacing: 10px;
+  }
+  
+  /* Hover effect */
+  .button:hover {
+    color: #bfbc00;
+  }
+
+  .square1{
+    height: 75px;
+    width: 75px;
+    background-color: rgb(128, 124, 124);
+    position: absolute;
+    left: 36%;
+    bottom: 5%;
+    background-image: url(angle-double-left_48pt_3x.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 7;
+    
+  }
+.square2 {
+    height: 75px;
+    width: 75px;
+    background-color: rgb(128, 124, 124);
+    position: absolute;
+    left: 44%;
+    bottom: 5%;
+    background-image: url(play_48pt_3x.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 8
+}
+.square3 {
+    height: 75px;
+    width: 75px;
+    background-color: rgb(128, 124, 124);
+    position: absolute;
+    left: 52%;
+    bottom: 5%;
+    background-image: url(refresh_48pt_3x.png);
+    background-position: center;
+    background-size: contain;
+    z-index: 9
+}
+.square4{
+    height: 75px;
+    width: 75px;
+    background-color: rgb(128, 124, 124);
+    position: absolute;
+    left: 60%;
+    bottom: 5%;
+    background-image: url(angle-double-small-right_48pt_3x.png);
+    background-position: center;
+    background-size: cover;
+    z-index: 10
+
+}

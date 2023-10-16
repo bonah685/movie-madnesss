@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(twinkle.gif);
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Fixed background position */
+}
+.container{
+    padding: 10px;
+    height: 100vh;
+}
+.rectangle {
+    height: 100px;
+    width: 700px;
+    background-image: url(wes\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    left: 35%;
+    bottom: 90%;
+    z-index: 1;
+}
+.rectangle2 {
+    height: 100px;
+    background-image: url(quintien3.jpg);
+    background-size: cover;
+    width: 700px;
+    left: 30%;
+    background-position: center;
+    border-radius: 10px;
+    bottom: 80%;
+    position: absolute;
+}
+.rectangle3 {
+    height: 100px;
+    width: 700px;
+    background-image: url(sophia\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    bottom: 70%;
+    border-radius: 10px;
+    left: 33%
+    
+
+}
+.rectangle4 {
+    height: 100px;
+    width: 700px;
+    background-color: lightseagreen;
+    position: absolute;
+    bottom: 60%;
+    border-radius: 10px;
+    left: 31%;
+}
+.rectangle5 {
+    height: 100px;
+    width: 700px;
+    background-color: rgb(206, 96, 184);
+    position: absolute;
+    border-radius: 10px;
+    bottom: 50%;
+    left: 30%;
+}
+.rectangle6 {
+    height: 100px;
+    width: 700px;
+    background-color: rgb(42, 255, 59);
+    position: absolute;
+    bottom: 40%;
+    border-radius: 10px;
+    left: 31%;
+}
+.rectangle7 {
+    height: 100px;
+    width: 700px;
+    background-color: rgb(229, 61, 28);
+    position: absolute;
+    border-radius: 10px;
+    bottom: 30%;
+    left: 34%;
+}
+.rectangle8 {
+    height: 100px;
+    width: 700px;
+    background-color: rgb(62, 5, 84);
+    position: absolute;
+    border-radius: 10px;
+    bottom: 20%;
+    left: 32%;
+}
+.rectangle9 {
+    height: 100px;
+    width: 700px;
+    background-color: rgb(51, 44, 181);
+    position: absolute;
+    bottom: 10%;
+    left: 36%;
+    border-radius: 10px;
+}
+.rectangle10 {
+    height: 100px;
+    width: 700px;
+    background-color: rgb(181, 122, 44);
+    position: absolute;
+    bottom: 0%;
+    left: 31%;
+    border-radius: 10px;
+}
